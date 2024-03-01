@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyBQPys5hPFmAcXnWmUgaJwZcP3c2w6iekY</string>
+	<key>GCM_SENDER_ID</key>
+	<string>534625186912</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.teachingFirebase</string>
+	<key>PROJECT_ID</key>
+	<string>teachingfirebase-9ca97</string>
+	<key>STORAGE_BUCKET</key>
+	<string>teachingfirebase-9ca97.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:534625186912:ios:7b4b1691c408c6a973bf05</string>
+</dict>
+</plist>
