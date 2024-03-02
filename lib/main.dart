@@ -6,6 +6,7 @@ import 'package:teaching_firebase/auth/screens/login_screen.dart';
 import 'package:teaching_firebase/bottom_bar/bottom_bar.dart';
 import 'package:teaching_firebase/notes/provider/note_provider.dart';
 import 'package:teaching_firebase/router.dart';
+import 'package:teaching_firebase/todo/todo_provider/todo_provider.dart';
 
 import 'firebase_options.dart';
 
@@ -15,6 +16,7 @@ void main() async {
   runApp(MultiProvider(
     providers: [
       ChangeNotifierProvider(create: (context) => NoteProvider()),
+      ChangeNotifierProvider(create: (context) => TodoProvider()),
     ],
     child: const MyApp(),
   ));

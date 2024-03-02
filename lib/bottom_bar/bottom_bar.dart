@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:teaching_firebase/auth/screens/login_screen.dart';
 import 'package:teaching_firebase/home_screen/home_screen.dart';
+import 'package:teaching_firebase/todo/screens/todo_screen.dart';
 
 import '../notes/screens/view_note.dart';
 
@@ -16,9 +17,9 @@ class _BottomBarState extends State<BottomBar> {
   int _page = 0;
 
   List<Widget> pages = [
+    const TodoScreen(),
     const ViewNotesScreen(),
     const HomeScreen(),
-    const LoginScreen(),
   ];
 
   void updatePage(int page) {
